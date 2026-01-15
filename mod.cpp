@@ -1,0 +1,11 @@
+name = "PzGr33 QOL";
+picture = "pzgr33_ca.paa";
+actionName = "";
+action = "";
+description = "";
+logo = "pzgr33_ca.paa";
+logoOver = "pzgr33_ca.paa";
+tooltip = "isky";
+tooltipOwned = "isky";
+overview = "PzGr33 QOL";
+author = "isky";
