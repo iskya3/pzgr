@@ -1,5 +1,5 @@
-#define MAINPREFIX 9
-#define PREFIX 9thAux
+#define MAINPREFIX pzgr
+#define PREFIX pzgr33
 
 #include "script_version.hpp"
 

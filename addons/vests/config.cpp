@@ -32,7 +32,7 @@ class cfgWeapons
 	class generic_jpc_1: ItemCore
 	{
 		author="isky";
-		picture="";
+		picture="\pzgr\pzgr33\addons\uniforms\pzgr33_ca.paa";
 		logo="";
 		scope=2;
 		weaponPoolAvailable=1;

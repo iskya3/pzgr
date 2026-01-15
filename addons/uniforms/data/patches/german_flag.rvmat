@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="pzgr33\pzgr_uniforms\data\patches\German_Flag_NOHQ.tga";
+	texture="pzgr\pzgr33\addons\uniforms\data\patches\German_Flag_NOHQ.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="pzgr33\pzgr_uniforms\data\patches\German_Flag_smdi.tga";
+	texture="pzgr\pzgr33\addons\uniforms\data\patches\German_Flag_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{
