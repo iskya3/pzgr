@@ -10,7 +10,6 @@ class CfgPatches
 class CfgMagazines 
 {
     class CA_Magazine;
-	class BWA3_1Rnd_Flare_Singlestar_White;
     class BWA3_200Rnd_556x45: CA_Magazine 
 	{
         ACE_isBelt = 1;
@@ -32,14 +31,6 @@ class CfgMagazines
         tracersEvery = 1;
 
     };
-    class BWA3_1Rnd_Flare_Singlestar_Green: BWA3_1Rnd_Flare_Singlestar_White 
-	{
-        ammo = "Sub_F_Signal_Green";
-    };
-    class BWA3_1Rnd_Flare_Singlestar_Red: BWA3_1Rnd_Flare_Singlestar_White 
-	{
-        ammo = "Sub_F_Signal_Red";
-    };
 };
 class CfgAmmo
 {
@@ -47,6 +38,7 @@ class CfgAmmo
 	class Sh_120mm_HE_Tracer_Red;
 	class B_556x45_Ball_Tracer_Red;
 	class B_762x51_Tracer_Red;
+	class F_Signal_Green;
     class BWA3_B_30mm_HE: B_30mm_MP_Tracer_Red 
 	{
 		hit = 100; 
@@ -79,6 +71,10 @@ class CfgAmmo
 	{
 		hit = 11.55;
 	};
+    class BWA3_Flare_Base: F_Signal_Green 
+	{
+		lightColor[]={1,1,1,0};
+    };
 };
 class CfgVehicles
 {
@@ -92,18 +88,4 @@ class CfgVehicles
 		maximumLoad = 320;
 	};
 };
-class CfgWeapons
-{
-    class Pistol_Base_F;
-    class BWA3_P2A1: Pistol_Base_F 
-	{
-        scope = 2;
-        magazines[] = 
-		{
-			"BWA3_1Rnd_Flare_Illum",
-            "BWA3_1Rnd_Flare_Singlestar_White",
-            "BWA3_1Rnd_Flare_Singlestar_Green",
-            "BWA3_1Rnd_Flare_Singlestar_Red"
-        };
-	};
-};
+#include "script_component.hpp"

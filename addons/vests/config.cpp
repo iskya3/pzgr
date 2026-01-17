@@ -13,22 +13,8 @@ class CfgPatches
 };
 class cfgWeapons
 {
-	class InventoryItem_Base_F;
 	class VestItem;
-	class NVGoggles;
-	class Default;
 	class ItemCore;
-	class H_HelmetB;
-	class Uniform_Base;
-	class UniformItem: ItemCore
-	{
-		class ItemInfo;
-	};
-	class HeadgearItem: InventoryItem_Base_F
-	{
-		class ItemInfo;
-		class HeadgearItem;
-	};
 	class generic_jpc_1: ItemCore
 	{
 		author="isky";
