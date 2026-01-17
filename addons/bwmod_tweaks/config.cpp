@@ -5,11 +5,6 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[]=
-		{
-			"bwa3_weapons",
-			"tfar_backpacks"
-		};
 	};
 };
 class CfgMagazines 
