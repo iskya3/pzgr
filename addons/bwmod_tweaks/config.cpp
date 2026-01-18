@@ -6,6 +6,13 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
+		requiredAddons[]=
+		{
+			"A3_Characters_F",
+			"tfar_backpacks",
+			"bwa3_weapons",
+			"bwa3_p2a1"
+		};
 	};
 };
 class CfgMagazines 
@@ -32,6 +39,7 @@ class CfgMagazines
         tracersEvery = 1;
 
     };
+#include "flaregun_magazines.hpp"
 };
 class CfgAmmo
 {
@@ -39,7 +47,7 @@ class CfgAmmo
 	class Sh_120mm_HE_Tracer_Red;
 	class B_556x45_Ball_Tracer_Red;
 	class B_762x51_Tracer_Red;
-	class F_Signal_Green;
+	//class F_Signal_Green;
     class BWA3_B_30mm_HE: B_30mm_MP_Tracer_Red 
 	{
 		hit = 100; 
@@ -72,10 +80,6 @@ class CfgAmmo
 	{
 		hit = 11.55;
 	};
-    class BWA3_Flare_Base: F_Signal_Green 
-	{
-		lightColor[]={1,1,1,0};
-    };
 };
 class CfgVehicles
 {
@@ -89,3 +93,4 @@ class CfgVehicles
 		maximumLoad = 320;
 	};
 };
+#include "uniforms.hpp"
