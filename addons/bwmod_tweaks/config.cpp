@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgPatches
 {
 	class ADDON
@@ -88,4 +89,3 @@ class CfgVehicles
 		maximumLoad = 320;
 	};
 };
-#include "script_component.hpp"
