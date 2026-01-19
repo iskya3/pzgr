@@ -8,7 +8,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "pzgr\pzgr33\addons\uniforms\data\g2_pants_NOHQ.tga";
+	texture = "pzgr33\pzgr\addons\uniforms\data\g2_pants_NOHQ.tga";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "pzgr\pzgr33\addons\uniforms\data\g2_pants_as.tga";
+	texture = "pzgr33\pzgr\addons\uniforms\data\g2_pants_as.tga";
 	uvSource = "tex";
 	class uvTransform
 	{

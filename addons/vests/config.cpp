@@ -18,16 +18,16 @@ class cfgWeapons
 	class generic_jpc_1: ItemCore
 	{
 		author="isky";
-		picture="\pzgr\pzgr33\addons\uniforms\pzgr33_ca.paa";
+		picture="\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
 		logo="";
 		scope=2;
 		weaponPoolAvailable=1;
 		displayName="[PzGr33] JPC 1";
-		model="pzgr33\pzgr_vests\jpc_1.p3d";
+		model="pzgr33\pzgr\addons\vests\jpc_1.p3d";
 		class ItemInfo: VestItem
 		{
 			mass=25;
-			uniformModel="pzgr33\pzgr_vests\jpc_1.p3d";
+			uniformModel="pzgr33\pzgr\addons\vests\jpc_1.p3d";
 			containerClass="Supply200";
 			modelSides[]={3,1};
 			armor=10;
