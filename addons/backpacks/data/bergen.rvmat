@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "pzgr33\pzgr\addons\backpacks\data\bergen_SMDI.tga";
+	texture = "";
 	uvSource = "tex";
 	class uvTransform
 	{

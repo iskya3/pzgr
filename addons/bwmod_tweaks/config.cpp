@@ -51,23 +51,27 @@ class CfgAmmo
     class BWA3_B_30mm_HE: B_30mm_MP_Tracer_Red 
 	{
 		hit = 100; 
-		indirectHit = 10;     
-		indirectHitRange = 3; 
+		indirectHit = 15;     
+		indirectHitRange = 5; 
 		caliber = 4.8;      
-		explosive = 0.6;    
+		explosive = 0.6;  
+		deflecting=0;
+		deflectionSlowDown=3.0;  
     };
-    class BWA3_Sh_120mm_HE: Sh_120mm_HE_Tracer_Red {
+    class BWA3_Sh_120mm_MZ: Sh_120mm_HE_Tracer_Red {
         hit = 600;
         indirectHit = 20;
         indirectHitRange = 8;
         typicalSpeed = 900;
         explosive = 0.7;
+		deflecting=0;
+		deflectionSlowDown=3.0; 
     };
     class BWA3_B_556x45_Ball: B_556x45_Ball_Tracer_Red 
 	{
-		hit=9;
+		hit=10;
 		typicalSpeed=960;
-		indirectHit =0;
+		indirectHit=0;
 		indirectHitRange=0;
 		airFriction=-0.000772;
 
