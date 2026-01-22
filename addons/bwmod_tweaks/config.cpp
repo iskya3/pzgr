@@ -65,7 +65,7 @@ class CfgAmmo
         typicalSpeed = 900;
         explosive = 0.7;
 		deflecting=0;
-		deflectionSlowDown=3.0; 
+		deflectionSlowDown=3.5; 
     };
     class BWA3_B_556x45_Ball: B_556x45_Ball_Tracer_Red 
 	{
@@ -74,7 +74,6 @@ class CfgAmmo
 		indirectHit=0;
 		indirectHitRange=0;
 		airFriction=-0.000772;
-
 	};
     class BWA3_B_556x45_Ball_Tracer_Dim: BWA3_B_556x45_Ball 
 	{

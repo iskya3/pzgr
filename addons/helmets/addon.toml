@@ -1,0 +1,5 @@
+[files]
+exclude = [
+    ".vscode/**/*", # Exclude all files in the .vscode folder
+    "data/*.tga",
+]
