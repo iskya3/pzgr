@@ -1,6 +1,7 @@
 hemtt
 hemtt.exe
 .hemttout
+.hemttprivatekey
 *.pbo
 *.biprivatekey
 @*
