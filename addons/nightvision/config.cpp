@@ -39,7 +39,7 @@ class cfgWeapons
 			type=616;
 			uniformModel="";
 			modelOff="";
-			mass=10;
+			mass=0.46;
 		};
 	};
 	class pzgr_mikrond: pzgr_nvg_base
