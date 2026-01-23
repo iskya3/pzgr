@@ -3,6 +3,7 @@ class CfgPatches
 {
 	class ADDON
 	{
+		units[]={};
 		weapons[]={"pzgr_mikrond"};
 		requiredVersion=0.1;
 		requiredAddons[]=
