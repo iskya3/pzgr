@@ -27,6 +27,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {};
 		maximumLoad = 600;
 		mass = 60;
+		dlc = "PzGr33";
 		/*
 		tf_dialog="anprc155_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -50,6 +51,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {};
 		maximumLoad = 400;
 		mass = 40;
+		dlc = "PzGr33";
 		/*
 		tf_dialog="anprc155_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";

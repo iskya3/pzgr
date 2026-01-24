@@ -35,6 +35,7 @@ class cfgWeapons
 		ace_nightvision_border="";
 		ace_nightvision_colorPreset[] = {0.0, {0.0, 0.0, 0.0, 0.0}, {1.1, 0.8, 1.9, 0.9}, {1, 1, 6, 0.0}};
 		descriptionShort="mikron-d night vision goggles";
+		dlc = "PzGr33";
 		class ItemInfo
 		{
 			type=616;

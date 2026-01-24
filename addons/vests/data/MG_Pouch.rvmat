@@ -47,7 +47,7 @@ class Stage4 {
 	};
 };
 class Stage5 {
-	texture = "pzgr33\pzgr\addons\vests\data\MG_Pouch_SMDI.tga";
+	texture = "";
 	uvSource = "tex";
 	class uvTransform {
 		aside[] = { 1, 0, 0 };

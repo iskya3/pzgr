@@ -27,6 +27,7 @@ class CfgFaces
 			materialHL="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2="\pzgr33\pzgr\addons\faces\data\isky_body_CO.paa";
 			materialHL2="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			dlc = "PzGr33";
 		};
 		class isky: WhiteHead_05
 		{
@@ -38,6 +39,7 @@ class CfgFaces
 			materialHL="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2="\pzgr33\pzgr\addons\faces\data\isky_body_CO.paa";
 			materialHL2="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			dlc = "PzGr33";
 		};
 		class hawk: WhiteHead_05
 		{
@@ -49,6 +51,7 @@ class CfgFaces
 			materialHL="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2="\pzgr33\pzgr\addons\faces\data\hawk_body_CO.paa";
 			materialHL2="\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			dlc = "PzGr33";
 		};
 	};
 };

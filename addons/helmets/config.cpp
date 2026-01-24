@@ -96,6 +96,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -136,6 +137,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -176,6 +178,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -216,6 +219,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -256,6 +260,7 @@ class cfgWeapons
 		ace_hearing_protection=0;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=0;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -297,6 +302,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -337,6 +343,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -377,6 +384,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -417,6 +425,7 @@ class cfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=1;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
@@ -457,6 +466,7 @@ class cfgWeapons
 		ace_hearing_protection=0;
 		ace_hearing_lowerVolume=0;
 		ace_hearing_hasEHP=0;
+		dlc = "PzGr33";
 		class ItemInfo: HeadgearItem
 		{
 			mass=19;
