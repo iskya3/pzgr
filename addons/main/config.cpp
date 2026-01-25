@@ -7,6 +7,19 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
+		requiredAddons[] = 
+		{
+			"A3_Weapons_F",
+			"Weapons_F_JCA_HF_Explosives"
+		};
+	};
+};
+class CfgMagazines
+{
+	class CA_Magazine;
+	class JCA_HandFlare_Base: CA_Magazine
+	{
+		mass=1.6;
 	};
 };
 class CfgMods
