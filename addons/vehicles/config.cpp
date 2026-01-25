@@ -13,9 +13,107 @@ class CfgPatches
 		};
 	};
 };
+class Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class BWA3_Optics_Gunner_Puma: Optics_Armored
+{
+	class Wide: Wide
+	{
+		gunnerOpticsModel="\bwa3_puma\bwa3_puma_optics_gunner_1.p3d";
+		thermalMode[]={0,1};
+		visionMode[]=
+		{
+			"Normal",
+			"NVG",
+			"Ti"
+		};
+	};
+	class Medium: Medium
+	{
+		gunnerOpticsModel="\bwa3_puma\bwa3_puma_optics_gunner_2.p3d";
+		thermalMode[]={0,1};
+		visionMode[]=
+		{
+			"Normal",
+			"NVG",
+			"Ti"
+		};
+	};
+	class Narrow: Narrow
+	{
+		gunnerOpticsModel="\bwa3_puma\bwa3_puma_optics_gunner_2.p3d";
+		thermalMode[]={0,1};
+		visionMode[]=
+		{
+			"Normal",
+			"NVG",
+			"Ti"
+		};
+	};
+};
+class BWA3_Attribute_LicensePlate_Base;
+class BWA3_Attribute_Company_Base;
+class BWA3_Attribute_Battalion_Base;
+class BWA3_Attribute_CamoNet_Base;
+class BWA3_Attribute_CamoNet_Turret_Base;
+class BWA3_Attribute_CamoNet_Gun_Base;
+class BWA3_Attribute_CamoNet_MELLS_Base;
+class BWA3_Attribute_HazardLights_Base;
 class CfgVehicles
 {
-	class Tank_F;
+		class All
+	{
+		class Turrets;
+	};
+	class AllVehicles: All
+	{
+		class ViewCargo;
+		class NewTurret
+		{
+			class Turrets;
+		};
+	};
+	class Land: AllVehicles
+	{
+	};
+	class LandVehicle: Land
+	{
+		class CommanderOptics: NewTurret
+		{
+			class ViewOptics;
+		};
+	};
+	class Tank: LandVehicle
+	{
+		class HitPoints;
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class Turrets
+				{
+					class CommanderOptics;
+				};
+			};
+		};
+	};
+	class Tank_F: Tank
+	{
+		class EventHandlers;
+		class ViewOptics;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+			class HitFuel;
+			class HitEngine;
+			class HitLTrack;
+			class HitRTrack;
+		};
+	};
 	class BWA3_Puma_base: Tank_F
 	{
 		tf_RadioType="BWA3_SEM90";
