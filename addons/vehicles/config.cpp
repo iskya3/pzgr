@@ -129,6 +129,13 @@ class CfgVehicles
 		};
 		acre_infantryPhonePosition="acre_telephone";
 		acre_infantryPhoneDisableRinging=0;
+		ace_vehicle_damage_hullDetonationProb=0.2;
+		ace_vehicle_damage_turretDetonationProb=0.2;
+		ace_vehicle_damage_turretFireProb=1;
+		ace_vehicle_damage_engineFireProb=0.25;
+		ace_vehicle_damage_canHaveFireRings=0;
+		ace_vehicle_damage_detonationDuringFireProb=1;
+		ace_cookoff_canHaveFireJet=1;
 		class AcreRacks
 		{
 			class Rack_1
