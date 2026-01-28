@@ -92,6 +92,7 @@ class CfgWeapons
 		displayName = "[PzGr33] Crye G3 (FLKW/FS/NG)";
 		picture = "\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
 		model = "\pzgr33\pzgr\addons\uniforms\G3_FS_NG.p3d";
+		dlc = "PzGr33";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -110,7 +111,7 @@ class CfgWeapons
 			gloves = "ng";
 		};
 	};
-	class G3_QR_FLKW_NG: Uniform_Base
+	class G3_QR_FLKW_NG: G3_FS_FLKW_NG
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -119,6 +120,7 @@ class CfgWeapons
 		displayName = "[PzGr33] Crye G3 (FLKW/QR/NG)";
 		picture = "\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
 		model = "\pzgr33\pzgr\addons\uniforms\G3_QR_NG.p3d";
+		dlc = "PzGr33";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -137,7 +139,7 @@ class CfgWeapons
 			gloves = "ng";
 		};
 	};
-	class G3_R_FLKW_NG: Uniform_Base
+	class G3_R_FLKW_NG: G3_FS_FLKW_NG
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -146,6 +148,7 @@ class CfgWeapons
 		displayName = "[PzGr33] Crye G3 (FLKW/R/NG)";
 		picture = "\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
 		model = "\pzgr33\pzgr\addons\uniforms\G3_R_NG.p3d";
+		dlc = "PzGr33";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -171,27 +174,27 @@ class CfgVehicles
 	class G3_FS_FLKW_NG: B_Soldier_base_F
 	{
 		scope = 1;
-		dlc = "";
+		dlc = "PzGr33";
 		modelSides[] = {0,1,2,3};
 		displayName = "Crye G3 (FLKW/FS/NG)";
 		model = "pzgr33\pzgr\addons\uniforms\G3_FS_NG.p3d";
 		hiddenSelections[] = {"camo","camo1"};
 		hiddenSelectionsTextures[] = {"pzgr33\pzgr\addons\uniforms\data\g2_pants_CO.paa","pzgr33\pzgr\addons\uniforms\data\g2_top_CO.paa"};
 	};
-	class G3_QR_FLKW_NG: B_Soldier_base_F
+	class G3_QR_FLKW_NG: G3_FS_FLKW_NG
 	{
 		scope = 1;
-		dlc = "";
+		dlc = "PzGr33";
 		modelSides[] = {0,1,2,3};
 		displayName = "Crye G3 (FLKW/QR/NG)";
 		model = "pzgr33\pzgr\addons\uniforms\G3_QR_NG.p3d";
 		hiddenSelections[] = {"camo","camo1","camo6"};
 		hiddenSelectionsTextures[] = {"pzgr33\pzgr\addons\uniforms\data\g2_pants_3_CO.paa","pzgr33\pzgr\addons\uniforms\data\g2_top_2_CO.paa","pzgr33\pzgr\addons\uniforms\data\cuffs_CO.paa"};
 	};
-	class G3_R_FLKW_NG: B_Soldier_base_F
+	class G3_R_FLKW_NG: G3_FS_FLKW_NG
 	{
 		scope = 1;
-		dlc = "";
+		dlc = "PzGr33";
 		modelSides[] = {0,1,2,3};
 		displayName = "Crye G3 (FLKW/R/NG)";
 		model = "pzgr33\pzgr\addons\uniforms\G3_R_NG.p3d";
