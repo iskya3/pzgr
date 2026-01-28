@@ -5,7 +5,7 @@ class CfgPatches
 	{
 		requiredaddons[] = {"A3_Characters_F"};
 		requiredversion = 1;
-		units[] = {"pzgr_f2_bergen_flkw","pzgr_arcteryx_leaf_flkw"};
+		units[] = {"pzgr_f2_bergen_flkw","pzgr_arcteryx_leaf_flkw","pzgr_trizip_od"};
 		weapons[] = {};
 		magazines[] = {};
 	};
@@ -51,6 +51,30 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {};
 		maximumLoad = 400;
 		mass = 40;
+		dlc = "PzGr33";
+		/*
+		tf_dialog="anprc155_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=22000;
+		tf_subtype="digital_lr";
+		*/
+	};
+	class pzgr_trizip_od: B_Kitbag_rgr
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		author = "isky";
+		displayName = "[PzGr33] Mystery Ranch TriZip (OD)";
+		model = "\pzgr33\pzgr\addons\backpacks\TriZip.p3d";
+		picture = "\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
+		logo="\pzgr33\pzgr\addons\uniforms\pzgr33_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		maximumLoad = 300;
+		mass = 35;
 		dlc = "PzGr33";
 		/*
 		tf_dialog="anprc155_radio_dialog";
