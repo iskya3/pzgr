@@ -1,5 +1,3 @@
-class CfgWeapons 
-{
     class Uniform_Base;
     class UniformItem;
     class BWA3_Uniform_Fleck: Uniform_Base {
@@ -332,4 +330,3 @@ class CfgWeapons
             uniformClass = "BWA3_Uniform_Crye_G3_Multi";
         };
     };
-};

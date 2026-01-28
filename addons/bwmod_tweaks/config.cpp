@@ -11,7 +11,10 @@ class CfgPatches
 			"A3_Characters_F",
 			"tfar_backpacks",
 			"bwa3_weapons",
-			"bwa3_p2a1"
+			"bwa3_p2a1",
+			"bwa3_pzh2000",
+			"bwa3_puma",
+			"bwa3_leopard2"
 		};
 	};
 };
@@ -123,4 +126,47 @@ class CfgVehicles
 		maximumLoad = 320;
 	};
 };
-#include "uniforms.hpp"
+class Mode_Burst;
+class CfgWeapons
+{
+	#include "uniforms.hpp"
+	class CannonCore;
+	class autocannon_Base_F;
+	class cannon_120mm;
+	class BWA3_MK30: autocannon_Base_F 
+	{
+        displayName = "$STR_BWA3_MK30Name";
+		ace_overpressure_priority=1;
+		ace_overpressure_angle=90;
+		ace_overpressure_range=15;
+		ace_overpressure_damage=0.60000002;
+    };
+	class BWA3_L55: cannon_120mm 
+	{
+        displayName = "$STR_BWA3_L55Name";
+        reloadTime = 6;
+        magazineReloadTime = 6;
+		ace_overpressure_priority=1;
+		ace_overpressure_angle = 90;    // Cone in which the damage is applied (in degrees from the muzzle of the cannon towards the side)
+        ace_overpressure_range = 50;    // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.85; // Damage multiplier
+        ace_overpressure_offset = 1;
+    };
+	class BWA3_RH155mm_AMOS: CannonCore 
+	{
+        scope = 1;
+        displayName = "$STR_BWA3_RH155_52";
+        reloadTime = 5;
+        magazineReloadTime = 7;
+        autoReload = 1;
+		ace_overpressure_priority=1;
+        ace_overpressure_angle = 90;    // Cone in which the damage is applied (in degrees from the muzzle of the cannon towards the side)
+        ace_overpressure_range = 50;    // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.85; // Damage multiplier
+        ace_overpressure_offset = 1;    // Offset from the projectile origin forwards, to where the overpressure should originate from
+        class Burst1: Mode_Burst 
+		{
+            reloadTime = 5;
+        };
+    };
+};
