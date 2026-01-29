@@ -2,16 +2,17 @@ name = "PzGr33 QOL"
 author = "isky"
 prefix = "pzgr"
 mainprefix = "pzgr33"
+
 [files]
-include = [
-    "mod.cpp",        # These files are copied to the build directory by default
-    "meta.cpp",       # They do not need to be added to your list
-    "LICENSE",
-    "pzgr33_ca.paa",
-    "pzgr33_ca.paa",
-    "python_code/**", # Copy the folder "python_code" including all its files
-]
-exclude = [
-    "*.psd",          # By default this list is empty
-    "addons/main/README.md",
-]
+include = ["mod.cpp", "meta.cpp", "CHANGELOG.md", "logo.paa"]
+exclude = ["README.md", "*.png", "*.tga"]
+
+[version]
+git_hash = 0 # Default: 8
+
+[hemtt.build]
+optional_mod_folders = false
+
+[hemtt.release]
+sign = true 
+archive = false
