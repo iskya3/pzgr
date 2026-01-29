@@ -4,7 +4,7 @@ prefix = "pzgr"
 mainprefix = "pzgr33"
 
 [files]
-include = ["mod.cpp", "meta.cpp", "CHANGELOG.md", "logo.paa"]
+include = ["mod.cpp", "meta.cpp", "CHANGELOG.md", "pzgr33_ca.paa"]
 exclude = ["README.md", "*.png", "*.tga"]
 
 [version]
