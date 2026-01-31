@@ -138,8 +138,8 @@ class CfgWeapons
         displayName = "$STR_BWA3_MK30Name";
 		ace_overpressure_priority=1;
 		ace_overpressure_angle=90;
-		ace_overpressure_range=15;
-		ace_overpressure_damage=0.60000002;
+		ace_overpressure_range=9;
+		ace_overpressure_damage=0.6;
     };
 	class BWA3_L55: cannon_120mm 
 	{
